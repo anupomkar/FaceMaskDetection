@@ -20,7 +20,7 @@ switch n
     case 0
         break;
     case 1
-        %Training
+        Training
     case 2
         LiveMask_TrainedSet
     case 3
