@@ -6,31 +6,24 @@ tic;
 fprintf('\n==============================================> Simulation Started <==============================================\n');
 fprintf('Start Time: %s\n', datestr(now,'HH:MM:SS.FFF\n\n'))
 
-% layers = [
-%     imageInputLayer([227 227 3],"Name","imageinput")
-%     convolution2dLayer([3 3],3,"Name","conv_1","Padding","same")
-%     batchNormalizationLayer("Name","batchnorm_1")
-%     reluLayer("Name","relu_1")
-%     maxPooling2dLayer([2 2],"Name","maxpool_1","Padding","same")
-%     convolution2dLayer([3 3],3,"Name","conv_2","Padding","same")
-%     batchNormalizationLayer("Name","batchnorm_2")
-%     reluLayer("Name","relu_2")
-%     maxPooling2dLayer([2 2],"Name","maxpool_2","Padding","same")
-%     convolution2dLayer([3 3],3,"Name","conv_3","Padding","same")
-%     batchNormalizationLayer("Name","batchnorm_3")
-%     reluLayer("Name","relu_3")
-%     convolution2dLayer([3 3],3,"Name","conv_4","Padding","same")
-%     reluLayer("Name","relu_4")
-%     convolution2dLayer([3 3],3,"Name","conv_5","Padding","same")
-%     reluLayer("Name","relu_5")
-%     maxPooling2dLayer([2 2],"Name","maxpool_5","Padding","same")
-%     reluLayer("Name","relu_6")
-%     reluLayer("Name","relu_7")
-%     fullyConnectedLayer(2,"Name","fc")
-%     softmaxLayer("Name","softmax")
-%     classificationLayer("Name","classoutput")
-%     ];
-% ins = layers(1).InputSize;
+%layers = [
+%    imageInputLayer([227 227 3],"Name","imageinput")
+%    convolution2dLayer([3 3],3,"Name","conv_1","Padding","same")
+%    batchNormalizationLayer("Name","batchnorm_1")
+%    reluLayer("Name","relu_1")
+%    maxPooling2dLayer([2 2],"Name","maxpool_1","Padding","same")
+%   convolution2dLayer([3 3],3,"Name","conv_2","Padding","same")
+%    batchNormalizationLayer("Name","batchnorm_2")
+%    reluLayer("Name","relu_2")
+%    maxPooling2dLayer([2 2],"Name","maxpool_2","Padding","same")
+%    convolution2dLayer([3 3],3,"Name","conv_3","Padding","same")
+%    batchNormalizationLayer("Name","batchnorm_3")
+%    reluLayer("Name","relu_3")
+%    fullyConnectedLayer(2,"Name","fc")
+%    softmaxLayer("Name","softmax")
+%    classificationLayer("Name","classoutput")
+%    ];
+%ins = layers(1).InputSize;
 
 
 
